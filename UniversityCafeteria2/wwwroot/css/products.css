@@ -1,0 +1,28 @@
+﻿
+.products-page {
+    background-color: #eef6ff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+    .products-page h1 {
+        color: #0056b3;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+.product-list {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+
+    .product-list li {
+        padding: 12px;
+        font-size: 18px;
+        border-bottom: 1px solid #ddd;
+    }
+
+        .product-list li:hover {
+            background-color: #dceeff;
+        }
