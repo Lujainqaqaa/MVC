@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Supply Offers";
+
+    string[] categories =
+    {
+        "Graduation Certificates",
+        "Hospitality",
+        "Graduation Gifts"
+    };
+
+    string[] suppliers =
+    {
+        "Supplier A", "Supplier B", "Supplier C",
+        "Supplier D", "Supplier E", "Supplier F",
+        "Supplier G", "Supplier H", "Supplier I"
+    };
+
+    string[] offers =
+    {
+        "Premium Certificate Package",
+        "Standard Certificate Package",
+        "Luxury Certificate Package",
+        "Coffee & Drinks Package",
+        "Sandwiches & Snacks Package",
+        "Full Hospitality Package",
+        "Customized Mugs Package",
+        "Graduation Bags Package",
+        "Premium Gift Boxes Package"
+    };
+
+    int[] quantities = { 35, 35, 35, 100, 100, 100, 35, 35, 35 };
+
+    decimal[] prices = { 2m, 1.5m, 2.5m, 2m, 3m, 4m, 2m, 3m, 4m };
+}
+
+<h2>Graduation Supply Request</h2>
+
+<p>Select one offer from each category.</p>
+
+
+
+
+<form action="@Url.Action("CreateRequest", "Supply")"
+      method="post">
+
+
+
+    @for (int c = 0; c < categories.Length; c++)
+    {
+        string fieldName = "";
+
+        switch (c)
+        {
+            case 0:
+                fieldName = "certificateChoice";
+                break;
+            case 1:
+                fieldName = "hospitalityChoice";
+                break;
+            case 2:
+                fieldName = "giftChoice";
+                break;
+        }
+
+
+
+
+        <h3 class="mt-4">@categories[c]</h3>
+
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Supplier</th>
+                    <th>Offer</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+
+
+
+
+                @for (int i = c * 3; i < (c + 1) * 3; i++)
+                {
+                    <tr>
+                        <td>@suppliers[i]</td>
+                        <td>@offers[i]</td>
+                        <td>@quantities[i]</td>
+                        <td>@prices[i] JD</td>
+                        <td>
+                            <input type="radio"
+                                   name="@fieldName"
+                                   value="@(i - c * 3)"
+                                   required />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+
+
+
+    <button type="submit" class="btn btn-primary mt-3">
+        Submit Selection
+    </button>
+
+</form>

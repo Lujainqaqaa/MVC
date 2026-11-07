@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Review Request";
+}
+
+<h2 class="text-center mb-4">Review Graduation Supply Request</h2>
+
+<table class="table table-bordered table-striped">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Category</th>
+            <th>Supplier</th>
+            <th>Offer Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>Graduation Certificates</td>
+            <td>@ViewBag.Certificate.SupplierName</td>
+            <td>@ViewBag.Certificate.OfferName</td>
+            <td>@ViewBag.Certificate.Quantity</td>
+            <td>@ViewBag.Certificate.UnitPrice JD</td>
+            <td>@ViewBag.CertificateTotal JD</td>
+        </tr>
+
+        <tr>
+            <td>Hospitality</td>
+            <td>@ViewBag.Hospitality.SupplierName</td>
+            <td>@ViewBag.Hospitality.OfferName</td>
+            <td>@ViewBag.Hospitality.Quantity</td>
+            <td>@ViewBag.Hospitality.UnitPrice JD</td>
+            <td>@ViewBag.HospitalityTotal JD</td>
+        </tr>
+
+        <tr>
+            <td>Graduation Gifts</td>
+            <td>@ViewBag.Gift.SupplierName</td>
+            <td>@ViewBag.Gift.OfferName</td>
+            <td>@ViewBag.Gift.Quantity</td>
+            <td>@ViewBag.Gift.UnitPrice JD</td>
+            <td>@ViewBag.GiftTotal JD</td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+<div class="card p-4 mt-4">
+
+    <h4>Request Summary</h4>
+
+    <p>
+        Total Price:
+        <strong>@ViewBag.TotalPrice JD</strong>
+    </p>
+
+    <p>
+        Discount Percentage:
+        <strong>@ViewBag.DiscountPercentage %</strong>
+    </p>
+
+    <p>
+        Discount Amount:
+        <strong>@ViewBag.DiscountAmount JD</strong>
+    </p>
+
+    <hr />
+
+    <h3 class="text-success">
+        Final Total: @ViewBag.FinalTotal JD
+    </h3>
+
+</div>
+
+<a href="@Url.Action("Index", "Supply")"
+   class="btn btn-primary mt-3">
+    Back to Create Request
+</a>

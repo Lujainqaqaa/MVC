@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "..\\AcademyGraduation.slnx",
+    "projects": [
+      "AcademyGraduation\\AcademyGraduation.csproj"
+    ]
+  }
+}
