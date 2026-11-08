@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBtask5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a243ebc521b19807c4e1b9a2f4a775569b2d262")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35c7f43b8795b32302e5629255c4f48268aec3f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBtask5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBtask5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
