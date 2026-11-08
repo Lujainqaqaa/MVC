@@ -1,0 +1,31 @@
+﻿<h2>My Requests</h2>
+
+@* عرض رسالة التأكيد *@
+<p>@TempData["Message"]</p>
+
+@* جدول الطلبات المؤكدة *@
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Products</th>
+        <th>Subtotal</th>
+        <th>Fee</th>
+        <th>Discount</th>
+        <th>Final Total</th>
+        <th>Status</th>
+    </tr>
+
+    @* عرض بيانات كل طلب *@
+    @foreach (var order in ViewBag.Orders)
+    {
+        <tr>
+            <td>@order.Id</td>
+            <td>@order.Items.Count</td>
+            <td>@order.Subtotal</td>
+            <td>@order.Fee</td>
+            <td>@order.Discount</td>
+            <td>@order.Total</td>
+            <td>@order.Status</td>
+        </tr>
+    }
+</table>

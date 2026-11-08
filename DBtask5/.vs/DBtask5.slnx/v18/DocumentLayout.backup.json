@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Data\\CafeteriaDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBtask5\\Data\\CafeteriaDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\data\\cafeteriaemployeesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\data\\cafeteriaemployeesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\dbtask5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\dbtask5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\codefirst\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\codefirst\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\codefirst\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\codefirst\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\codefirst\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\codefirst\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\codefirst\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\codefirst\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\codefirst\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\codefirst\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|c:\\users\\user\\desktop\\mvc\\dbtask5\\dbtask5\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9522880-A5DF-45EC-8ADF-8979E7CAE818}|DBtask5\\DBtask5.csproj|solutionrelative:dbtask5\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBtask5\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20261107215336_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs",
+              "RelativeToolTip": "DBtask5\\Migrations\\CodeFirst\\20261107215336_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:53:36.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBtask5",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\DBtask5.csproj",
+              "RelativeDocumentMoniker": "DBtask5\\DBtask5.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\DBtask5.csproj",
+              "RelativeToolTip": "DBtask5\\DBtask5.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-07T21:19:40.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CafeteriaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Data\\CafeteriaDbContext.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Data\\CafeteriaDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Data\\CafeteriaDbContext.cs",
+              "RelativeToolTip": "DBtask5\\Data\\CafeteriaDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:31:02.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Program.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Program.cs",
+              "RelativeToolTip": "DBtask5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:24:09.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\appsettings.json",
+              "RelativeDocumentMoniker": "DBtask5\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\appsettings.json",
+              "RelativeToolTip": "DBtask5\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-07T21:23:03.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CafeteriaEmployeesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Data\\CafeteriaEmployeesDbContext.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Data\\CafeteriaEmployeesDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Data\\CafeteriaEmployeesDbContext.cs",
+              "RelativeToolTip": "DBtask5\\Data\\CafeteriaEmployeesDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:21:23.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\PurchaseOrderItem.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\CodeFirst\\PurchaseOrderItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\PurchaseOrderItem.cs",
+              "RelativeToolTip": "DBtask5\\Models\\CodeFirst\\PurchaseOrderItem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:15:12.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\CodeFirst\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\PurchaseOrder.cs",
+              "RelativeToolTip": "DBtask5\\Models\\CodeFirst\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:14:21.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Product.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\CodeFirst\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Product.cs",
+              "RelativeToolTip": "DBtask5\\Models\\CodeFirst\\Product.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:14:07.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Supplier.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\CodeFirst\\Supplier.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Supplier.cs",
+              "RelativeToolTip": "DBtask5\\Models\\CodeFirst\\Supplier.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:13:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\Category.cs",
+              "RelativeToolTip": "DBtask5\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:13:31.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Category.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\CodeFirst\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\CodeFirst\\Category.cs",
+              "RelativeToolTip": "DBtask5\\Models\\CodeFirst\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:13:10.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DBtask5\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\DBtask5\\DBtask5\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "DBtask5\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:09:18.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

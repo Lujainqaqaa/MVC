@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+
+
+    string name = "lujain";
+    int age = 25;
+
+}
+
+
+
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microso
+ft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+@section scripts {
+    <script>
+        alert("lujainnqa");
+    </script>
+
+    <style>
+        .display-4{
+            color:blueviolet ;
+            background:black;
+            font-size:50px;
+        }
+        .name1{
+            color:blue;
+            background:pink;
+            font-size:30px;
+        }
+    </style>
+
+}
+
+    <p class="name1">hello,my name @name and I am @age years old.</p>
+
+
+    @{
+        string product = "Coffee";
+        double price = 2.5;
+        int quantity = 10;
+    }
+
+    <h2>@product</h2>
+    <p>Price: @price JD</p>
+    <p>Quantity: @quantity</p>
+
+
+
+    @{
+    string[] prouducte = { "Coffee", "Tea", "Juice" };
+
+    }
+
+    <p>@prouducte[0]</p>
+<p>@prouducte[0]</p>
+<p>@prouducte[1]</p>
+<p>@prouducte[2]</p>
+
+@{
+    int quantity1 = 5;
+}
+
+@if (quantity1>0)
+
+{
+    <p>good</p>
+}
+else
+{
+    <p>out of stock</p>
+}
+
+
+@{
+    string status = "available"; 
+
+}
+
+@switch (status)
+{
+    
+
+    case "available":
+        <p>Product is available</p>
+        break;
+    case "out of stock":
+        <p>Product is out of stock</p>
+        break;
+    default:
+        <p>Unknown status</p>
+        break; 
+}
+@for (int i=0;i<=6;i++)
+{
+    <p>@i</p>
+}
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+@{
+
+    string[] products = {
+        "Coffee", "Tea", "Juice"
+    };
+
+    double[] prices = { 2.5, 1.5, 3.0 };
+
+    int[] quantities = { 10, 0, 5 };
+}
+
+<h2>Products List</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @for (int i = 0; i < products.Length; i++)
+        {
+            <tr>
+                <td>@products[i]</td>
+                <td>@prices[i] JD</td>
+                <td>
+                    @if (quantities[i] > 0)
+                    {
+                        <span class="text-success">
+                            Available
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">
+                            Out of Stock
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\db1111\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|c:\\users\\user\\desktop\\mvc\\db1111\\db1111\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|solutionrelative:db1111\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|c:\\users\\user\\desktop\\mvc\\db1111\\db1111\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|solutionrelative:db1111\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|c:\\users\\user\\desktop\\mvc\\db1111\\db1111\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{814363A8-62BE-49AB-8E0C-47537456D906}|db1111\\db1111.csproj|solutionrelative:db1111\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "project.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\Models\\project.cs",
+              "RelativeDocumentMoniker": "db1111\\Models\\project.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\Models\\project.cs*",
+              "RelativeToolTip": "db1111\\Models\\project.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:14:42.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\Models\\student.cs",
+              "RelativeDocumentMoniker": "db1111\\Models\\student.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\Models\\student.cs*",
+              "RelativeToolTip": "db1111\\Models\\student.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:14:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\appsettings.json",
+              "RelativeDocumentMoniker": "db1111\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\db1111\\db1111\\appsettings.json*",
+              "RelativeToolTip": "db1111\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-05T10:13:35.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

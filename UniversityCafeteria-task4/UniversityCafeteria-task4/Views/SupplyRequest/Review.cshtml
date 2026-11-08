@@ -1,0 +1,43 @@
+﻿
+@* استقبال بيانات الطلب *@
+@{
+    var order = ViewBag.Order;
+}
+
+<h2>Review Draft</h2>
+
+@* عرض منتجات المسودة *@
+<table class="table">
+    <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+
+    @foreach (var item in order.Items)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Category</td>
+            <td>@item.Quantity</td>
+            <td>@item.Price</td>
+            <td>@item.Total</td>
+        </tr>
+    }
+</table>
+
+@* عرض تفاصيل التكلفة *@
+<p>Priority: @order.Priority</p>
+<p>Subtotal: @order.Subtotal JD</p>
+<p>Preparation Fee: @order.Fee JD</p>
+<p>Discount: @order.Discount JD</p>
+<h4>Final Total: @order.Total JD</h4>
+
+@* تأكيد الطلب *@
+<form method="post"
+      action="@Url.Action("ConfirmRequest", "SupplyRequest")">
+    @Html.AntiForgeryToken()
+    <button class="btn btn-success">Confirm Request</button>
+</form>

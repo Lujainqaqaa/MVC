@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<h2>Create Supply Request</h2>
+
+@* الرسالة وعدد المنتجات في المسودة *@
+<p>@TempData["Message"]</p>
+<p>Products in draft: @ViewBag.Count</p>
+
+@* فورم إضافة منتج *@
+<form method="post" action="@Url.Action("AddItem", "SupplyRequest")">
+    @Html.AntiForgeryToken()
+
+    <label>Product Name</label>
+    <input name="name" class="form-control mb-2" required />
+
+    <label>Category</label>
+    <input name="category" class="form-control mb-2" required />
+
+    <label>Quantity</label>
+    <input name="quantity" type="number" min="1"
+           class="form-control mb-2" required />
+
+    <label>Unit Price</label>
+    <input name="price" type="number" min="0.01" step="0.01"
+           class="form-control mb-2" required />
+
+    @* اختيار أولوية الطلب *@
+    <label>Priority</label>
+    <select name="priority" class="form-select mb-2">
+        @foreach (var p in new[] { "Normal", "Urgent", "Emergency" })
+        {
+            <option selected="@(p == (string)ViewBag.Priority)">@p</option>
+        }
+    </select>
+
+    <button class="btn btn-primary">Add Product</button>
+</form>
+
+<hr />
+
+@* حفظ الأولوية المفضلة باستخدام الكوكيز *@
+<h3>Preferred Priority</h3>
+<p>Your preferred request priority is @ViewBag.Preferred.</p>
+
+<form method="post"
+      action="@Url.Action("SavePreference", "SupplyRequest")">
+    @Html.AntiForgeryToken()
+
+    <select name="priority" class="form-select mb-2">
+        @foreach (var p in new[] { "Normal", "Urgent", "Emergency" })
+        {
+            <option selected="@(p == (string)ViewBag.Preferred)">@p</option>
+        }
+    </select>
+
+    <button class="btn btn-secondary">Save Preference</button>
+</form>
+
+<hr />
+
+@* الانتقال لمراجعة المسودة *@
+<a href="@Url.Action("Review", "SupplyRequest")"
+   class="btn btn-success">Review Draft</a>
+
+@* حذف المسودة من السيشن *@
+<form method="post" class="mt-2"
+      action="@Url.Action("ClearDraft", "SupplyRequest")">
+    @Html.AntiForgeryToken()
+    <button class="btn btn-danger">Clear Draft</button>
+</form>

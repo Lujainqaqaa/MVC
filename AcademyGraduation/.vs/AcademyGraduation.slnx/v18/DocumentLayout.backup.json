@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\views\\supply\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\views\\supply\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\views\\supply\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\views\\supply\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduation\\academygraduation\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{165D4410-EE7E-40E6-98C4-837D80C28191}|AcademyGraduation\\AcademyGraduation.csproj|solutionrelative:academygraduation\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcademyGraduation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T20:25:57.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\About.cshtml",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Views\\Supply\\About.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\About.cshtml",
+              "RelativeToolTip": "AcademyGraduation\\Views\\Supply\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T20:24:46.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\Review.cshtml",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Views\\Supply\\Review.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\Review.cshtml",
+              "RelativeToolTip": "AcademyGraduation\\Views\\Supply\\Review.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T20:23:25.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Program.cs",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Program.cs",
+              "RelativeToolTip": "AcademyGraduation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T20:05:45.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Views\\Supply\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Views\\Supply\\Index.cshtml",
+              "RelativeToolTip": "AcademyGraduation\\Views\\Supply\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T19:38:49.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupplyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Controllers\\SupplyController.cs",
+              "RelativeDocumentMoniker": "AcademyGraduation\\Controllers\\SupplyController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduation\\AcademyGraduation\\Controllers\\SupplyController.cs",
+              "RelativeToolTip": "AcademyGraduation\\Controllers\\SupplyController.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAuwCEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T19:30:59.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
