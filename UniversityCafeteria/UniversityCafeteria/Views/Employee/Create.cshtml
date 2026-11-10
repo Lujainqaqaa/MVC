@@ -1,0 +1,36 @@
+﻿@model Employee
+
+<h2>Create Employee</h2>
+
+@using (Html.BeginForm("Create", "Employee", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    @Html.LabelFor(m => m.FullName)
+    @Html.TextBoxFor(m => m.FullName,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Phone)
+    @Html.TextBoxFor(m => m.Phone,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Position)
+    @Html.TextBoxFor(m => m.Position,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Salary)
+    @Html.TextBoxFor(m => m.Salary,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.HireDate)
+    @Html.TextBoxFor(m => m.HireDate,
+        "{0:yyyy-MM-dd}",
+        new { @type = "date", @class = "form-control mb-3" })
+
+    <button class="btn btn-primary">Save</button>
+}

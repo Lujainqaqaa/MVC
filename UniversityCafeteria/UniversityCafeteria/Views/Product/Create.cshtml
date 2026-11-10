@@ -1,52 +1,39 @@
-﻿@model UniversityCafeteria.Models.Product
+﻿@model Product
 
 <h2>Create Product</h2>
 
 @using (Html.BeginForm("Create", "Product", FormMethod.Post))
 {
-    <div class="form-group">
-        @Html.LabelFor(m => m.Name)
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
 
-        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-    </div>
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name,
+        new { @class = "form-control mb-3" })
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Price)
+    @Html.LabelFor(m => m.Description)
+    @Html.TextBoxFor(m => m.Description,
+        new { @class = "form-control mb-3" })
 
-        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
-    </div>
+    @Html.LabelFor(m => m.Price)
+    @Html.TextBoxFor(m => m.Price,
+        new { @class = "form-control mb-3" })
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Quantity)
+    @Html.LabelFor(m => m.Quantity)
+    @Html.TextBoxFor(m => m.Quantity,
+        new { @class = "form-control mb-3" })
 
-        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control" })
-    </div>
+    @Html.LabelFor(m => m.CategoryId)
+    @Html.DropDownListFor(m => m.CategoryId,
+        (SelectList)ViewBag.Categories,
+        "Select Category",
+        new { @class = "form-control mb-3" })
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.CategoryId)
+    @Html.LabelFor(m => m.SupplierId)
+    @Html.DropDownListFor(m => m.SupplierId,
+        (SelectList)ViewBag.Suppliers,
+        "Select Supplier",
+        new { @class = "form-control mb-3" })
 
-        @Html.DropDownListFor(
-            m => m.CategoryId,
-            (SelectList)ViewBag.Categories,
-            "Select Category",
-            new { @class = "form-control" }
-        )
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(m => m.SupplierId)
-
-        @Html.DropDownListFor(
-            m => m.SupplierId,
-            (SelectList)ViewBag.Suppliers,
-            "Select Supplier",
-            new { @class = "form-control" }
-        )
-    </div>
-
-    <br />
-
-    <button type="submit" class="btn btn-primary">
-        Save
-    </button>
+    <button class="btn btn-primary">Save</button>
 }

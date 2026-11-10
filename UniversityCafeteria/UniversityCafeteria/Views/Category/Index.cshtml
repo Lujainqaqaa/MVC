@@ -1,10 +1,18 @@
-﻿@model IEnumerable<UniversityCafeteria.Models.Category>
+﻿@model IEnumerable<Category>
 
 <h2>Categories</h2>
 
-<a href="@Url.Action("Create", "Category")">
-    Add New Category
+<a href="@Url.Action("Create", "Category")"
+   class="btn btn-primary mb-3">
+    Add New
 </a>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
 
 <table class="table table-bordered">
     <thead>
@@ -12,9 +20,10 @@
             <th>Id</th>
             <th>Name</th>
             <th>Description</th>
+            <th>Products Count</th>
+            <th>Actions</th>
         </tr>
     </thead>
-
     <tbody>
         @foreach (var item in Model)
         {
@@ -22,6 +31,26 @@
                 <td>@item.Id</td>
                 <td>@item.Name</td>
                 <td>@item.Description</td>
+                <td>@item.Products.Count</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit",
+                        new { id = item.Id })
+
+                    @Html.ActionLink("Details", "Details",
+                        new { id = item.Id })
+
+                    @using (Html.BeginForm("Delete", "Category",
+                        new { id = item.Id }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <button type="submit"
+                                class="btn btn-danger btn-sm"
+                                onclick="return confirm('Delete this category?')">
+                            Delete
+                        </button>
+                    }
+                </td>
             </tr>
         }
     </tbody>

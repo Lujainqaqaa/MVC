@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Employee>
+
+<h2>Employees</h2>
+
+@Html.ActionLink("Add New", "Create", "Employee",
+    null, new { @class = "btn btn-primary mb-3" })
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Hire Date</th>
+            <th>Orders Count</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.Phone</td>
+                <td>@item.Email</td>
+                <td>@item.Position</td>
+                <td>@item.Salary</td>
+                <td>@item.HireDate.ToShortDateString()</td>
+                <td>@item.Orders.Count</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit",
+                        new { id = item.Id })
+
+                    @Html.ActionLink("Details", "Details",
+                        new { id = item.Id })
+
+                    @using (Html.BeginForm("Delete", "Employee",
+                        new { id = item.Id }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-danger btn-sm"
+                                onclick="return confirm('Delete employee?')">
+                            Delete
+                        </button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

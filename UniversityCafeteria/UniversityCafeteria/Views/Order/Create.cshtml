@@ -1,0 +1,34 @@
+﻿@model Order
+
+<h2>Create Order</h2>
+
+@using (Html.BeginForm("Create", "Order", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    @Html.LabelFor(m => m.CustomerName)
+    @Html.TextBoxFor(m => m.CustomerName,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.OrderDate)
+    @Html.TextBoxFor(m => m.OrderDate,
+        "{0:yyyy-MM-dd}",
+        new { @type = "date", @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.TotalPrice)
+    @Html.TextBoxFor(m => m.TotalPrice,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Status)
+    @Html.TextBoxFor(m => m.Status,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.EmployeeId)
+    @Html.DropDownListFor(m => m.EmployeeId,
+        (SelectList)ViewBag.Employees,
+        "Select Employee",
+        new { @class = "form-control mb-3" })
+
+    <button class="btn btn-primary">Save</button>
+}

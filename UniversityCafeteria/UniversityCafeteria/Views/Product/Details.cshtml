@@ -1,0 +1,12 @@
+﻿@model Product
+
+<h2>Product Details</h2>
+
+<p><b>Name:</b> @Html.DisplayFor(m => m.Name)</p>
+<p><b>Description:</b> @Html.DisplayFor(m => m.Description)</p>
+<p><b>Price:</b> @Html.DisplayFor(m => m.Price)</p>
+<p><b>Quantity:</b> @Html.DisplayFor(m => m.Quantity)</p>
+<p><b>Category:</b> @Model.Category?.Name</p>
+<p><b>Supplier:</b> @Model.Supplier?.Name</p>
+
+@Html.ActionLink("Back", "Index", "Product")

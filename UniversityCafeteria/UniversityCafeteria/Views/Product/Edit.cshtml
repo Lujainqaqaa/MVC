@@ -1,0 +1,41 @@
+﻿@model Product
+
+<h2>Edit Product</h2>
+
+@using (Html.BeginForm("Edit", "Product",
+    new { id = Model.Id }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+    @Html.ValidationSummary()
+
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Description)
+    @Html.TextBoxFor(m => m.Description,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Price)
+    @Html.TextBoxFor(m => m.Price,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.Quantity)
+    @Html.TextBoxFor(m => m.Quantity,
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.CategoryId)
+    @Html.DropDownListFor(m => m.CategoryId,
+        (SelectList)ViewBag.Categories,
+        "Select Category",
+        new { @class = "form-control mb-3" })
+
+    @Html.LabelFor(m => m.SupplierId)
+    @Html.DropDownListFor(m => m.SupplierId,
+        (SelectList)ViewBag.Suppliers,
+        "Select Supplier",
+        new { @class = "form-control mb-3" })
+
+    <button class="btn btn-success">Update</button>
+}

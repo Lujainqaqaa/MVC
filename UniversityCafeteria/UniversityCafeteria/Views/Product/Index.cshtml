@@ -1,33 +1,60 @@
-﻿@model IEnumerable<UniversityCafeteria.Models.Product>
+﻿@model IEnumerable<Product>
 
 <h2>Products</h2>
 
-<a href="@Url.Action("Create", "Product")">
-    Add New Product
-</a>
+@Html.ActionLink("Add New", "Create", "Product",
+    null, new { @class = "btn btn-primary mb-3" })
 
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>Id</th>
             <th>Name</th>
+            <th>Description</th>
             <th>Price</th>
             <th>Quantity</th>
             <th>Category</th>
             <th>Supplier</th>
+            <th>Stock Status</th>
+            <th>Actions</th>
         </tr>
     </thead>
-
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
                 <td>@item.Name</td>
+                <td>@item.Description</td>
                 <td>@item.Price</td>
                 <td>@item.Quantity</td>
                 <td>@item.Category?.Name</td>
                 <td>@item.Supplier?.Name</td>
+                <td>
+                    @if (item.Quantity < 5)
+                    {
+                        <span class="text-danger">Low Stock</span>
+                    }
+                    else
+                    {
+                        <span class="text-success">Available</span>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit",
+                        new { id = item.Id })
+
+                    @Html.ActionLink("Details", "Details",
+                        new { id = item.Id })
+
+                    @using (Html.BeginForm("Delete", "Product",
+                        new { id = item.Id }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-danger btn-sm"
+                                onclick="return confirm('Delete product?')">
+                            Delete
+                        </button>
+                    }
+                </td>
             </tr>
         }
     </tbody>

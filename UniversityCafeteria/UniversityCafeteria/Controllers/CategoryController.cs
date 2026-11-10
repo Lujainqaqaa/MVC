@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using UniversityCafeteria.Data;
 using UniversityCafeteria.Models;
 
@@ -13,27 +14,95 @@ namespace UniversityCafeteria.Controllers
             _context = context;
         }
 
-        // GET: Category/Index
         public IActionResult Index()
         {
-            var categories = _context.Categories.ToList();
-
-            return View(categories);
+            return View(_context.Categories
+                .Include(c => c.Products).ToList());
         }
 
-        // GET: Category/Create
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Category/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(Category category)
         {
-            _context.Categories.Add(category);
+            if (!ModelState.IsValid)
+                return View(category);
 
+            _context.Categories.Add(category);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+        
+
+
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var category = _context.Categories.Find(id);
+
+            if (category == null)
+                return NotFound();
+
+            return View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, Category category)
+        {
+            if (id != category.Id)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+                return View(category);
+
+            var old = _context.Categories.Find(id);
+
+            if (old == null)
+                return NotFound();
+
+            old.Name = category.Name;
+            old.Description = category.Description;
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Details(int id)
+        {
+            var category = _context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefault(c => c.Id == id);
+
+            return category == null ? NotFound() : View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var category = _context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefault(c => c.Id == id);
+
+            if (category == null)
+                return NotFound();
+
+            if (category.Products.Any())
+            {
+                TempData["Error"] = "Cannot delete category with products.";
+                return RedirectToAction("Index");
+            }
+
+            _context.Categories.Remove(category);
             _context.SaveChanges();
 
             return RedirectToAction("Index");

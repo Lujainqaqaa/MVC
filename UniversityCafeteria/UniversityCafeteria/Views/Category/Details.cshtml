@@ -1,0 +1,10 @@
+﻿@model Category
+
+<h2>Category Details</h2>
+
+<p><b>Id:</b> @Html.DisplayFor(m => m.Id)</p>
+<p><b>Name:</b> @Html.DisplayFor(m => m.Name)</p>
+<p><b>Description:</b> @Html.DisplayFor(m => m.Description)</p>
+<p><b>Products Count:</b> @Model.Products.Count</p>
+
+@Html.ActionLink("Back to List", "Index", "Category")

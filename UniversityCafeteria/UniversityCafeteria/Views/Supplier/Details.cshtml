@@ -1,0 +1,11 @@
+﻿@model Supplier
+
+<h2>Supplier Details</h2>
+
+<p><b>Name:</b> @Html.DisplayFor(m => m.Name)</p>
+<p><b>Phone:</b> @Html.DisplayFor(m => m.Phone)</p>
+<p><b>Email:</b> @Html.DisplayFor(m => m.Email)</p>
+<p><b>Address:</b> @Html.DisplayFor(m => m.Address)</p>
+<p><b>Products Count:</b> @Model.Products.Count</p>
+
+@Html.ActionLink("Back", "Index", "Supplier")

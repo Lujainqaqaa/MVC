@@ -1,0 +1,11 @@
+﻿@model Order
+
+<h2>Order Details</h2>
+
+<p><b>Customer:</b> @Html.DisplayFor(m => m.CustomerName)</p>
+<p><b>Order Date:</b> @Model.OrderDate.ToShortDateString()</p>
+<p><b>Total Price:</b> @Html.DisplayFor(m => m.TotalPrice)</p>
+<p><b>Status:</b> @Html.DisplayFor(m => m.Status)</p>
+<p><b>Employee:</b> @Model.Employee?.FullName</p>
+
+@Html.ActionLink("Back", "Index", "Order")

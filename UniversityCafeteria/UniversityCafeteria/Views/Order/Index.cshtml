@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Order>
+
+<h2>Orders</h2>
+
+@Html.ActionLink("Add New", "Create", "Order",
+    null, new { @class = "btn btn-primary mb-3" })
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Order Date</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Employee</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerName</td>
+                <td>@item.OrderDate.ToShortDateString()</td>
+                <td>@item.TotalPrice</td>
+                <td>@item.Status</td>
+                <td>@item.Employee?.FullName</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit",
+                        new { id = item.Id })
+
+                    @Html.ActionLink("Details", "Details",
+                        new { id = item.Id })
+
+                    @using (Html.BeginForm("Delete", "Order",
+                        new { id = item.Id }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-danger btn-sm"
+                                onclick="return confirm('Delete order?')">
+                            Delete
+                        </button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

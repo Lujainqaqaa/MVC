@@ -1,0 +1,13 @@
+﻿@model Employee
+
+<h2>Employee Details</h2>
+
+<p><b>Name:</b> @Html.DisplayFor(m => m.FullName)</p>
+<p><b>Phone:</b> @Html.DisplayFor(m => m.Phone)</p>
+<p><b>Email:</b> @Html.DisplayFor(m => m.Email)</p>
+<p><b>Position:</b> @Html.DisplayFor(m => m.Position)</p>
+<p><b>Salary:</b> @Html.DisplayFor(m => m.Salary)</p>
+<p><b>Hire Date:</b> @Model.HireDate.ToShortDateString()</p>
+<p><b>Orders Count:</b> @Model.Orders.Count</p>
+
+@Html.ActionLink("Back", "Index", "Employee")
