@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "..\\UniversityCafeteria\\UniversityCafeteria.slnx",
+    "projects": [
+      "UniversityCafeteria\\UniversityCafeteria.csproj"
+    ]
+  }
+}
